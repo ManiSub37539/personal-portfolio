@@ -300,7 +300,6 @@ section {
 
 .qual-card h3{
     font-size: 1.25rem;
-    margin-bottom: 0.5rem;
     color: #1e293b;
 }
 
@@ -319,6 +318,12 @@ section {
     color: #64748b;
     font-weight: 500;
     margin-bottom: 0.5rem;
+}
+
+/*skills & technologies*/
+
+.skills{
+    background-color: white; 
 }
 
 
