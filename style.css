@@ -41,7 +41,7 @@ nav.scrolled{
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #50C878;
 }
 
 .nav-links{
@@ -59,7 +59,7 @@ nav.scrolled{
 }
 
 .nav-links a:hover{
-    color: #2563eb;
+    color: #50C878;
 }
 
 .nav-links a:after{
@@ -69,7 +69,7 @@ nav.scrolled{
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #2563eb;
+    background-color: #50C878;
     transition: width 0.3s ease;
 }
 
@@ -105,7 +105,7 @@ nav.scrolled{
 
 .hero-text .subtitle{
     font-size: 1.25rem;
-    color: #2563eb;
+    color: #50C878;
     margin-bottom: 1.5rem;
     opacity: 0;
     animation: fadeInUp 1s ease forwards;
@@ -139,8 +139,8 @@ nav.scrolled{
 }
 
 .hero-image img{
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
@@ -173,7 +173,7 @@ nav.scrolled{
 }
 
 .btn-primary{
-    background-color: #2563eb;
+    background-color: #50C878;
     color: white;
 }
 
@@ -184,24 +184,24 @@ nav.scrolled{
 
 .btn-secondary{
     background-color: transparent;
-    color: #2563eb;
-    border: 2px solid #2563eb;
+    color: #50C878;
+    border: 2px solid #50C878;
 }
 
 .btn-secondary:hover{
-    background-color: #2563eb;
+    background-color: #50C878;
     color: white;
     transform: translateY(-2px);
 }
 
 .btn-tartiary{
     background-color: transparent;
-    color: #2563eb;
-    border: 2px solid #2563eb;
+    color: #50C878;
+    border: 2px solid #50C878;
 }
 
 .btn-tartiary:hover{
-    background-color: #2563eb;
+    background-color: #50C878;
     color: white;
     transform: translateY(-2px);
 }
@@ -224,14 +224,15 @@ section {
 }
 
 .about-content{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    /*grid-template-columns: 4fr 2fr;*/
+    justify-content: center;
     gap: 4rem;
     align-items: center;
 }
 
 .about-image img{
-    width: 100%;
+    width: 90%;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
@@ -239,7 +240,7 @@ section {
 .about-text h3{
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2563eb;
+    color: #50C878;
 }
 
 .about-text p{
@@ -270,7 +271,7 @@ section {
 .stat-number{
     font-size: 2rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #50C878;
 
 }
 
@@ -306,7 +307,7 @@ section {
 
 .qual-icon{
     font-size: 2.5rem;
-    color: #2563eb;
+    color: #50C878;
     margin-bottom: 1rem;
 }
 
@@ -316,7 +317,7 @@ section {
 }
 
 .qual-card .institution{
-    color: #2563eb;
+    color: #50C878;
     font-weight: 600;
 }
 
@@ -358,7 +359,7 @@ section {
 
 .skill-category i{
     font-size: 3rem;
-    color: #2563eb;
+    color: #50C878;
     margin-bottom: 1rem;
 }
 
@@ -447,7 +448,7 @@ section {
 }
 
 .project-links a{
-    color: #2563eb;
+    color: #50C878;
     text-decoration: none;
     font-weight: 600;
     display: flex;
@@ -477,7 +478,7 @@ section {
 
 .contact-info h3 {
     
-    color: #2563eb;
+    color: #50C878;
 }
 
 .contact-item {
@@ -490,7 +491,7 @@ section {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #2563eb;
+    color: #50C878;
     width: 30px;
 }
 
@@ -506,7 +507,7 @@ section {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #2563eb;
+    background-color: #50C878;
     color: white;
     border-radius: 50%;
     text-decoration: none;
