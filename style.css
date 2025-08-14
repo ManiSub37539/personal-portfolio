@@ -178,7 +178,7 @@ nav.scrolled{
 }
 
 .btn-primary:hover{
-    background-color: #1d4ed8;
+    background-color: #096909;
     transform: translateY(-2px);
 }
 
@@ -457,7 +457,7 @@ section {
 }
 
 .project-links a:hover{
-    color: #1d4ed8;
+    color: #096909;
 }
 
 /*Contact Section*/
@@ -515,8 +515,16 @@ section {
 }
 
 .social-links a:hover {
-    background-color: #1d4ed8;
+    background-color: #096909;
     transform: translateY(-3px);
+}
+/*link*/
+a.email{
+    color:#e2e8f0;
+}
+
+a.email:hover{
+    color:#50C878;
 }
 
 .contact-form {
