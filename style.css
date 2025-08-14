@@ -194,6 +194,18 @@ nav.scrolled{
     transform: translateY(-2px);
 }
 
+.btn-tartiary{
+    background-color: transparent;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+}
+
+.btn-tartiary:hover{
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+}
+
 section {
     padding: 5rem 0;
 }
