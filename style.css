@@ -375,6 +375,59 @@ section {
     justify-content: center;
 }
 
+/*Experience*/
+
+.experience{
+    background-color: #f8fafc;
+}
+
+.qual-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.qual-card{
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.qual-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15)
+}
+
+.qual-icon{
+    font-size: 2.5rem;
+    color: #50C878;
+    margin-bottom: 1rem;
+}
+
+.qual-card h3{
+    font-size: 1.25rem;
+    color: #1e293b;
+}
+
+.qual-card .institution{
+    color: #50C878;
+    font-weight: 600;
+}
+
+.qual-card .year{
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.qual-card .location{
+    font-size: 0.95rem;
+    color: #64748b;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
 /* Projects */
 .projects{
     background-color: #f8fafc;
